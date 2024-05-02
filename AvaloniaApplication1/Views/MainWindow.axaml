@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AvaloniaApplication1.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication1.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+		x:CompileBindings="False"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AvaloniaApplication1">
+
+    <Grid ShowGridLines="True" RowDefinitions=".1* .1* .1*" ColumnDefinitions=".1* .1* .1*">
+        <StackPanel Grid.Column="2" Grid.Row="1">
+            <Button Margin="5" Content="Add Product" Background="Transparent" Click="Button_OnClick"/>
+        </StackPanel>
+      <StackPanel>
+        <ListBox Grid.Column="1" Grid.Row="1" x:Name="ProductListBox" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                  <Border BorderBrush="Aquamarine">
+                    <StackPanel>
+            
+							<TextBox Text="{Binding ProdName} "/>
+								
+						<TextBox Text="{Binding ProdPrice} "/>
+						
+						<TextBox Text="{Binding ProdDescription} "/>
+						
+                            
+                    </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        </StackPanel>
+    </Grid>
+
+</Window>
