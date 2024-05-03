@@ -3,37 +3,44 @@
         xmlns:vm="using:AvaloniaApplication1.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
         x:Class="AvaloniaApplication1.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
 		x:CompileBindings="False"
         Icon="/Assets/avalonia-logo.ico"
-        Title="AvaloniaApplication1">
+        Title="AvaloniaApplication1"
+        Height="1920" Width="1080"
+        WindowState="Maximized">
+    
+    <Window.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="Margin" Value="2"></Setter>
+        </Style>
+    </Window.Styles>
 
-    <Grid ShowGridLines="True" RowDefinitions=".1* .1* .1*" ColumnDefinitions=".1* .1* .1*">
+    <Grid ShowGridLines="True" RowDefinitions=".1* .7* .1*" ColumnDefinitions=".1* .5* .1*">
         <StackPanel Grid.Column="2" Grid.Row="1">
             <Button Margin="5" Content="Add Product" Background="Transparent" Click="Button_OnClick"/>
         </StackPanel>
-      <StackPanel>
-        <ListBox Grid.Column="1" Grid.Row="1" x:Name="ProductListBox" >
+        
+      <StackPanel Grid.Row="1" Grid.Column="1">
+        <ListBox x:Name="ProductListBox" MaxHeight="960" Background="Transparent">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                  <Border BorderBrush="Aquamarine">
-                    <StackPanel>
-            
-							<TextBox Text="{Binding ProdName} "/>
-								
-						<TextBox Text="{Binding ProdPrice} "/>
-						
-						<TextBox Text="{Binding ProdDescription} "/>
-						
-                            
+                  <Border BorderThickness="1" BorderBrush="Black" CornerRadius="5">
+                    <StackPanel Margin="2">
+                        <TextBlock Text="{Binding ProdName, StringFormat='Название: {0}'} "/>
+                        <TextBlock Text="{Binding ProdPrice, StringFormat='Цена: {0}'} "/>
+                        <TextBlock TextWrapping="Wrap" Text="{Binding ProdDescription, StringFormat='Описание: {0}'} "/>
+                        <TextBlock Text="{Binding ProdCount, StringFormat='Количество на складе: {0}'}"/>
+                        <TextBlock Text="{Binding ProdManufacturer, StringFormat='Производитель: {0}'}"/>
                     </StackPanel>
                     </Border>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
         </StackPanel>
+        
     </Grid>
 
 </Window>

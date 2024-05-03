@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
@@ -14,20 +15,57 @@ public partial class add_prod_window : Window
         InitializeComponent();
     }
 
-    public List<Products> ProductsList2 = new List<Products>();
-    private void Button_OnClick(object? sender, RoutedEventArgs e)
+    public List<Products> ProductsList2 = new();
+
+    private async void Button_OnClick(object? sender, RoutedEventArgs e)
     {
+        if (string.IsNullOrWhiteSpace(prodName.Text) || string.IsNullOrWhiteSpace(prodDecsription.Text))
+
+        {
+            EBlock.Text = "Заполните все поля!";
+            await Task.Delay(3000);
+            EBlock.Text = string.Empty;
+            return;
+        }
+
+        if (!int.TryParse(prodPrice.Text, out var price))
+        {
+            EBlock.Text = "Введите корректную цену!";
+            await Task.Delay(3000);
+            EBlock.Text = string.Empty;
+            return;
+        }
+        
+        if (!int.TryParse(prodCount.Text, out var count))
+        {
+            EBlock.Text = "Введите корректное количество!";
+            await Task.Delay(3000);
+            EBlock.Text = string.Empty;
+            return;
+        }
+        
         {
             var newProd = new Products
             {
                 ProdDescription = prodDecsription.Text,
                 ProdName = prodName.Text,
-                ProdPrice = int.Parse(prodPrice.Text)
+                ProdManufacturer = (string)((ComboBoxItem)ManufacturerBox.SelectedItem).Content,
+                ProdPrice = price,
+                ProdCount = count
             };
-            ProductsList2.Add(newProd);
+          
+           ProductList.productsList.Add(newProd);
+            
         }
-        MainWindow mainWindow = new MainWindow(ProductsList2);
+        MainWindow mainWindow = new MainWindow();
         mainWindow.Show();
         this.Close();
+    }
+
+    private void back_add_main(object? sender, RoutedEventArgs e)
+    {
+        MainWindow mainWindow = new MainWindow();
+        mainWindow.Show();
+        Close();
     }
 }

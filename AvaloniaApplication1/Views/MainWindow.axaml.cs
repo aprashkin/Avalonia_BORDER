@@ -7,30 +7,18 @@ using AvaloniaApplication1.Models;
 namespace AvaloniaApplication1.Views;
 
 public partial class MainWindow : Window
-{   List<Products> ListPr = new List<Products>();
+{   List<Products> ListPr = new ();
     public MainWindow()
     {
         InitializeComponent();
-    }
-    public MainWindow(List<Products> productsList)
-    {
-        InitializeComponent();
-        ProductListBox.ItemsSource = ListPr.ToList();
-        foreach (Products product in productsList)
+        foreach (Products pr in ProductList.productsList)
         {
-            
-            ListPr.Add(product);
-
+            ListPr.Add(pr);
         }
-        
-        
-        
         ProductListBox.ItemsSource = ListPr.ToList();
     }
 
     
-
-
     private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
         add_prod_window prodWindow = new add_prod_window();
