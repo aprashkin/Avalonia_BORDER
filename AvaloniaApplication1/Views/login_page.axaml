@@ -1,0 +1,40 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication1.Views.login_page"
+        WindowState="Maximized"
+        Title="login_page">
+    
+    <Window.Styles>
+        <Style Selector="Button.item-name">
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Padding" Value="5 3"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+        
+            <Style Selector="^:pointerover /template/ ContentPresenter">
+                <Setter Property="Foreground" Value="Blue"/>
+                <Setter Property="Background" Value="Transparent"/>
+            </Style>
+            <Style Selector="^:pressed /template/ ContentPresenter">
+                <Setter Property="Background" Value="Transparent"/>
+            </Style>
+        </Style>
+    </Window.Styles>
+
+    <Grid ShowGridLines="True" ColumnDefinitions=".1* .3* .1*" RowDefinitions=".1* .1* .1*">
+        <TextBlock Grid.Column="1" Text="Магазин" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <TextBox Name="LoginTextBox" Margin="5" CornerRadius="5" Watermark="Логин"/>
+            <TextBox Name="PasswordTextBox" Margin="5" CornerRadius="5" Watermark="Пароль"/>
+            <Button HorizontalAlignment="Center" Content="Войти" Background="Transparent" Margin="0 6 0 0 "/>
+            <Button Classes="item-name" Content="Продолжить как гость?" HorizontalAlignment="Right"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>

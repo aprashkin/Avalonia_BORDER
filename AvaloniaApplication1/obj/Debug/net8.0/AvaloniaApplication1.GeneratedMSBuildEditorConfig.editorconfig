@@ -13,15 +13,18 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaloniaApplication1
-build_property.ProjectDir = C:\Users\prdb\Desktop\AvaloniaApplication1_BORDER!!!\AvaloniaApplication1_BORDER!!!\AvaloniaApplication1\
+build_property.ProjectDir = C:\Users\kristy\RiderProjects\Avalonia_BORDER\AvaloniaApplication1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/prdb/Desktop/AvaloniaApplication1_BORDER\!\!\!/AvaloniaApplication1_BORDER\!\!\!/AvaloniaApplication1/App.axaml]
+[C:/Users/kristy/RiderProjects/Avalonia_BORDER/AvaloniaApplication1/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/prdb/Desktop/AvaloniaApplication1_BORDER\!\!\!/AvaloniaApplication1_BORDER\!\!\!/AvaloniaApplication1/Views/add_prod_window.axaml]
+[C:/Users/kristy/RiderProjects/Avalonia_BORDER/AvaloniaApplication1/Views/add_prod_window.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/prdb/Desktop/AvaloniaApplication1_BORDER\!\!\!/AvaloniaApplication1_BORDER\!\!\!/AvaloniaApplication1/Views/MainWindow.axaml]
+[C:/Users/kristy/RiderProjects/Avalonia_BORDER/AvaloniaApplication1/Views/login_page.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kristy/RiderProjects/Avalonia_BORDER/AvaloniaApplication1/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -15,7 +15,7 @@ public partial class add_prod_window : Window
         InitializeComponent();
     }
 
-    public List<Products> ProductsList2 = new();
+    
 
     private async void Button_OnClick(object? sender, RoutedEventArgs e)
     {
