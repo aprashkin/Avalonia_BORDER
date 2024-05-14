@@ -57,14 +57,14 @@ public partial class add_prod_window : Window
            ProductList.productsList.Add(newProd);
             
         }
-        MainWindow mainWindow = new MainWindow();
+        MainWindow mainWindow = new MainWindow(true);
         mainWindow.Show();
         this.Close();
     }
 
     private void back_add_main(object? sender, RoutedEventArgs e)
     {
-        MainWindow mainWindow = new MainWindow();
+        MainWindow mainWindow = new MainWindow(true);
         mainWindow.Show();
         Close();
     }

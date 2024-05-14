@@ -8,16 +8,22 @@ namespace AvaloniaApplication1.Views;
 
 public partial class MainWindow : Window
 {   List<Products> ListPr = new ();
-    public MainWindow()
+    public MainWindow(bool isAdmin)
     {
         InitializeComponent();
+        if (isAdmin)
+            AddButton.IsVisible = true;
+        
         foreach (Products pr in ProductList.productsList)
-        {
             ListPr.Add(pr);
-        }
+        
         ProductListBox.ItemsSource = ListPr.ToList();
     }
 
+    public MainWindow()
+    {
+        InitializeComponent();
+    }
     
     private void Button_OnClick(object? sender, RoutedEventArgs e)
     {

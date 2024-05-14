@@ -20,7 +20,7 @@
 
     <Grid ShowGridLines="True" RowDefinitions=".1* .7* .1*" ColumnDefinitions=".1* .5* .1*">
         <StackPanel Grid.Column="2" Grid.Row="1">
-            <Button Margin="5" Content="Add Product" Background="Transparent" Click="Button_OnClick"/>
+            <Button Margin="5" Content="Add Product" Name="AddButton" Background="Transparent"  IsVisible="False" Click="Button_OnClick"/>
         </StackPanel>
         
       <StackPanel Grid.Row="1" Grid.Column="1">

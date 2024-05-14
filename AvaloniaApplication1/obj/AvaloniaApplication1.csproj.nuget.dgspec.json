@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kristy\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\AvaloniaApplication1.csproj": {}
+    "C:\\Users\\prdb\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\AvaloniaApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kristy\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\AvaloniaApplication1.csproj": {
+    "C:\\Users\\prdb\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\AvaloniaApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kristy\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\AvaloniaApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\prdb\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\AvaloniaApplication1.csproj",
         "projectName": "AvaloniaApplication1",
-        "projectPath": "C:\\Users\\kristy\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\AvaloniaApplication1.csproj",
-        "packagesPath": "C:\\Users\\kristy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kristy\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\obj\\",
+        "projectPath": "C:\\Users\\prdb\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\AvaloniaApplication1.csproj",
+        "packagesPath": "C:\\Users\\prdb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\prdb\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kristy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\prdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\kristy\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

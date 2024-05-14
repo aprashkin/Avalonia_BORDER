@@ -9,11 +9,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e5dcedbf-f0e3-4682-91d7-1e55325c5ce0" name="Changes" comment="123">
       <changelist_data name="aprashkin" email="" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/avalonia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaApplication1/Models/Users.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.pdb" afterDir="false" />
@@ -61,18 +63,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "aprashkin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aprashkin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aprashkin/Avalonia_BORDER",
-    "accountId": "c03c0371-b9ea-41a5-8f7d-94c6a5b166a5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aprashkin/Avalonia_BORDER&quot;,
+    &quot;accountId&quot;: &quot;c03c0371-b9ea-41a5-8f7d-94c6a5b166a5&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/src/coreclr/System.Private.CoreLib/src/System/Runtime/CompilerServices/RuntimeHelpers.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/src/libraries/System.Private.CoreLib/src/System/Buffer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -102,28 +104,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.AvaloniaApplication1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.AvaloniaApplication1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\kristy\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\kristy\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\kristy\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\prdb\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\prdb\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\prdb\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AvaloniaApplication1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -156,6 +158,8 @@
       <workItem from="1714655497502" duration="660000" />
       <workItem from="1714719661347" duration="10671000" />
       <workItem from="1714765029415" duration="1895000" />
+      <workItem from="1714979555565" duration="2459000" />
+      <workItem from="1715667326885" duration="1802000" />
     </task>
     <servers />
   </component>
