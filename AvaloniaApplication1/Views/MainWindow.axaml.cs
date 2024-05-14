@@ -23,6 +23,10 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        
+        foreach (Products pr in ProductList.productsList)
+            ListPr.Add(pr);
+        ProductListBox.ItemsSource = ListPr.ToList();
     }
     
     private void Button_OnClick(object? sender, RoutedEventArgs e)

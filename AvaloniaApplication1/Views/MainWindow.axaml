@@ -40,7 +40,7 @@
             </ListBox.ItemTemplate>
         </ListBox>
         </StackPanel>
-        
+        <TextBlock Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Text="empty"/>
     </Grid>
 
 </Window>
