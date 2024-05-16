@@ -8,6 +8,7 @@ namespace AvaloniaApplication1.Views;
 
 public partial class MainWindow : Window
 {   List<Products> ListPr = new ();
+    private List<Users> ListUs = new();
     public MainWindow(bool isAdmin)
     {
         InitializeComponent();
@@ -18,6 +19,13 @@ public partial class MainWindow : Window
             ListPr.Add(pr);
         
         ProductListBox.ItemsSource = ListPr.ToList();
+
+        foreach (Users users in ListUs)
+        {
+            ListUs.Add(users);
+        }
+
+        /*UserListBox.ItemsSource = ListUs.ToList();*/
     }
 
     public MainWindow()
@@ -27,12 +35,25 @@ public partial class MainWindow : Window
         foreach (Products pr in ProductList.productsList)
             ListPr.Add(pr);
         ProductListBox.ItemsSource = ListPr.ToList();
+        foreach (Users users in ListUs)
+        {
+            ListUs.Add(users);
+        }
+
+        /*UserListBox.ItemsSource = ListUs.ToList();*/
     }
     
     private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
         add_prod_window prodWindow = new add_prod_window();
         prodWindow.Show();
+        this.Close();
+    }
+
+    private void escape(object? sender, RoutedEventArgs e)
+    {
+        login_page loginPage = new login_page();
+        loginPage.Show();
         this.Close();
     }
 }

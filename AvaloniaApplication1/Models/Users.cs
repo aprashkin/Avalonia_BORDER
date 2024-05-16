@@ -15,7 +15,7 @@ public class Users
     {
         public static List<Users> UsersList = new()
         {
-            new Users { UserName = "IVAN", UserSurname = "IVANOV" }
+            new Users { UserName = "IVAN", UserSurname = "IVANOV", IsAdmin = false}
         };
 
     }

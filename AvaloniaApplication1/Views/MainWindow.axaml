@@ -30,17 +30,29 @@
                   <Border BorderThickness="1" BorderBrush="Black" CornerRadius="5">
                     <StackPanel Margin="2">
                         <TextBlock Text="{Binding ProdName, StringFormat='Название: {0}'} "/>
-                        <TextBlock Text="{Binding ProdPrice, StringFormat='Цена: {0}'} "/>
-                        <TextBlock TextWrapping="Wrap" Text="{Binding ProdDescription, StringFormat='Описание: {0}'} "/>
+                        <TextBlock Text="{Binding ProdPrice, StringFormat='Цена: {0}₽'}"/>
+                        <TextBlock  Text="{Binding ProdDescription, StringFormat='Описание: {0}'}" TextWrapping="Wrap"/>
                         <TextBlock Text="{Binding ProdCount, StringFormat='Количество на складе: {0}'}"/>
                         <TextBlock Text="{Binding ProdManufacturer, StringFormat='Производитель: {0}'}"/>
+                        <Image Source="{Binding ImagePath}"/>
                     </StackPanel>
                     </Border>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
         </StackPanel>
-        <TextBlock Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Text="empty"/>
+        <Button Grid.Column="3" Grid.Row="2" Content="Выйти" Background="Red" Foreground="Beige" HorizontalAlignment="Center" FontSize="30" Click="escape"/>
+                           <!--<ListBox Grid.Column="2" Grid.Row="0" x:Name="UserListBox" Background="Transparent">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border>
+                        <StackPanel>
+                            <TextBlock Text="{Binding UserName, StringFormat='Имя: {0}'}"/> 
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>-->
     </Grid>
 
 </Window>

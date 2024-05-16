@@ -7,10 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5dcedbf-f0e3-4682-91d7-1e55325c5ce0" name="Changes" comment="">
+    <list default="true" id="e5dcedbf-f0e3-4682-91d7-1e55325c5ce0" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Models/Products.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Models/Products.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Models/Users.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Models/Users.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.pdb" afterDir="false" />
@@ -141,7 +146,9 @@
       <workItem from="1714765029415" duration="1895000" />
       <workItem from="1714979555565" duration="2459000" />
       <workItem from="1715667326885" duration="2671000" />
-      <workItem from="1715670178548" duration="1737000" />
+      <workItem from="1715670178548" duration="2071000" />
+      <workItem from="1715854953418" duration="2397000" />
+      <workItem from="1715858499698" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
