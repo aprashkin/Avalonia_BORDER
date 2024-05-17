@@ -27,7 +27,7 @@
     </Window.Styles>
     
     
-    <Grid ShowGridLines="True" RowDefinitions=".1* .1* .1*" ColumnDefinitions=".1* .1* .1*">
+    <Grid ShowGridLines="False" RowDefinitions=".1* .1* .1*" ColumnDefinitions=".1* .1* .1*">
         <StackPanel Grid.Column="1" Grid.Row="1">
             <TextBox Margin="5" Watermark="Название" Name="prodName"/>
             <TextBox Margin="5" Watermark="Описание" Name="prodDecsription"/>

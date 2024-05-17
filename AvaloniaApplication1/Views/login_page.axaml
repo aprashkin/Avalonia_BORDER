@@ -26,7 +26,7 @@
         </Style>
     </Window.Styles>
 
-    <Grid ShowGridLines="True" ColumnDefinitions=".1* .1* .1*" RowDefinitions=".1* .1* .1*">
+    <Grid ShowGridLines="False" ColumnDefinitions=".1* .1* .1*" RowDefinitions=".1* .1* .1*">
         <TextBlock Grid.Column="1" Text="Магазин" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
         
         <StackPanel Grid.Column="1" Grid.Row="1">

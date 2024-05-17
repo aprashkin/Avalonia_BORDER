@@ -16,6 +16,7 @@ public partial class MainWindow : Window
         if (isAdmin)
             AddButton.IsVisible = true;
         
+        
         foreach (Products pr in ProductList.productsList)
             ListPr.Add(pr);
         

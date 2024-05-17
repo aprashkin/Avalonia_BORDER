@@ -18,13 +18,13 @@
         </Style>
     </Window.Styles>
 
-    <Grid ShowGridLines="True" RowDefinitions=".1* .7* .1*" ColumnDefinitions=".1* .5* .1*">
+    <Grid ShowGridLines="False" RowDefinitions=".1* .7* .1*" ColumnDefinitions=".1* .5* .1*">
         <StackPanel Grid.Column="2" Grid.Row="1">
             <Button Margin="5" Content="Add Product" Name="AddButton" Background="Transparent"  IsVisible="False" Click="Button_OnClick"/>
         </StackPanel>
-        
+        <Border Grid.Column="1" Grid.Row="1" BorderBrush="Black" BorderThickness="1" CornerRadius="10 "></Border>
       <StackPanel Grid.Row="1" Grid.Column="1">
-        <ListBox x:Name="ProductListBox" MaxHeight="960" Background="Transparent">
+        <ListBox x:Name="ProductListBox" MaxHeight="960" Background="Transparent" CornerRadius=" 10 10 0 0">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                   <Border BorderThickness="1" BorderBrush="Black" CornerRadius="5">
@@ -49,6 +49,7 @@
             </ListBox.ItemTemplate>
         </ListBox>
         </StackPanel>
+        <TextBlock Grid.Row="0" Grid.Column="2" x:Name="TextBlockForName" HorizontalAlignment="Center"/>
         <Button Grid.Column="3" Grid.Row="2" Content="Выйти" Background="Red" Foreground="Beige" HorizontalAlignment="Center" FontSize="30" Click="escape"/>
     </Grid>
 
