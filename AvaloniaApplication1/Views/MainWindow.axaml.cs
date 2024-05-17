@@ -9,6 +9,7 @@ namespace AvaloniaApplication1.Views;
 public partial class MainWindow : Window
 {   List<Products> ListPr = new ();
     private List<Users> ListUs = new();
+    
     public MainWindow(bool isAdmin)
     {
         InitializeComponent();
@@ -25,9 +26,20 @@ public partial class MainWindow : Window
             ListUs.Add(users);
         }
 
-        /*UserListBox.ItemsSource = ListUs.ToList();*/
+        
     }
 
+    public void GetCount()
+    {
+        foreach (Products products in ProductList.productsList)
+        {
+            if (products.InStock = false)
+            {
+                
+            }
+                
+        }
+    }
     public MainWindow()
     {
         InitializeComponent();

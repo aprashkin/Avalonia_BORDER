@@ -17,7 +17,7 @@ public partial class add_prod_window : Window
         InitializeComponent();
     }
 
-    
+    private bool inStock;
 
     private async void Button_OnClick(object? sender, RoutedEventArgs e)
     {
@@ -45,7 +45,16 @@ public partial class add_prod_window : Window
             EBlock.Text = string.Empty;
             return;
         }
+
+        if (_imagePath == null)
         {
+            _imagePath = new Bitmap("C:\\Users\\prdb\\RiderProjects\\Avalonia_BORDER\\AvaloniaApplication1\\Assets\\images.png");
+        }
+        {
+            if (count <= 0)
+            {
+                inStock = false;
+            }
             var newProd = new Products
             {
                 ProdDescription = prodDecsription.Text,
@@ -53,7 +62,8 @@ public partial class add_prod_window : Window
                 ProdManufacturer = (string)((ComboBoxItem)ManufacturerBox.SelectedItem).Content,
                 ProdPrice = price,
                 ProdCount = count,
-                ImagePath = _imagePath
+                ImagePath = _imagePath,
+                InStock = inStock
             };
           
             ProductList.productsList.Add(newProd);

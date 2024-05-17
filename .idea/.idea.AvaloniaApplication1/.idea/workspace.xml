@@ -7,18 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5dcedbf-f0e3-4682-91d7-1e55325c5ce0" name="Changes" comment="initial commit">
+    <list default="true" id="e5dcedbf-f0e3-4682-91d7-1e55325c5ce0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Models/Products.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Models/Products.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Models/Users.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Models/Users.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/MainWindow.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/add_prod_window.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/Views/login_page.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net8.0/AvaloniaApplication1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/obj/Debug/net8.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/obj/Debug/net8.0/Avalonia/original.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/obj/Debug/net8.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/obj/Debug/net8.0/Avalonia/original.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaApplication1/obj/Debug/net8.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication1/obj/Debug/net8.0/Avalonia/original.ref.dll" afterDir="false" />
@@ -77,7 +75,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/81cd416261cea43f67fa36858fae091bcf630c94bb8d415fa3b99486ca923a/Win32DispatcherImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dca7348132fe2a808736081c225b26e395f2581aa576813f1316ca11ec2/Dispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eff4eaf53fa2b35b3c543e9774e7e1fc119463b19895eaf68aff398d4b6792/AvaloniaPropertyDictionary.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/prdb/RiderProjects/Avalonia_BORDER/AvaloniaApplication1/Views/add_prod_window.axaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/prdb/RiderProjects/Avalonia_BORDER/AvaloniaApplication1/Views/add_prod_window.axaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -148,7 +146,9 @@
       <workItem from="1715667326885" duration="2671000" />
       <workItem from="1715670178548" duration="2071000" />
       <workItem from="1715854953418" duration="2397000" />
-      <workItem from="1715858499698" duration="1353000" />
+      <workItem from="1715858499698" duration="1527000" />
+      <workItem from="1715872667446" duration="748000" />
+      <workItem from="1715929109705" duration="3630000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -158,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715669323165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add work with pictures">
+      <option name="closed" value="true" />
+      <created>1715859997232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715859997232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +178,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="123" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add work with pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="add work with pictures" />
   </component>
 </project>
